@@ -1,0 +1,7 @@
+15:25:14.306 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "firefox"
+}
+15:25:14.307 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+15:25:21.775 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+15:25:21.801 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 2f224431-7dfe-4bc6-8515-bc8c9450f091 (org.openqa.selenium.firefox.GeckoDriverService)
+15:25:26.427 INFO [ActiveSessions$1.onStop] - Removing session 2f224431-7dfe-4bc6-8515-bc8c9450f091 (org.openqa.selenium.firefox.GeckoDriverService)

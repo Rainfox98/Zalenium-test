@@ -1,0 +1,8 @@
+{
+  "name": "Jotaro Kujo",
+  "description": "Master of Star Platinum",
+  "createRolepermission": "Create roles",
+  "readRolepermission": "Read roles",
+  "updateName": "Stand User",
+  "updateDescription": "Can use Stand"
+}

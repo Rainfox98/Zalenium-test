@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573556164246' stop='1573556170438'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1573556164246' status='passed' stop='1573556170181'>
+            <name>Should make screen of full page</name>
+            <title>Should make screen of full page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.97'/>
+            </parameters>
+            <steps>
+                <step start='1573556164247' status='passed' stop='1573556167747'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1573556164249' status='passed' stop='1573556167746'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='b8adea79-f9b3-4fba-89ae-32c63f9c294c-attachment.json' type='application/json' size='53'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1573556167751' status='passed' stop='1573556167764'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='dbae7da5-0da4-4857-9637-b907654bf8f0-attachment.json' type='application/json' size='313'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573556167766' status='passed' stop='1573556167778'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='0c4eccdf-7213-4997-a69b-66b92bfeb23e-attachment.json' type='application/json' size='1283'/>
+                        <attachment title='Response' source='5ba3636c-c456-4ffd-bf07-3ad00dd13034-attachment.json' type='application/json' size='463'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573556167781' status='passed' stop='1573556167792'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='babdede7-248d-4f81-b6db-0fd79c062dab-attachment.json' type='application/json' size='198'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573556169296' status='passed' stop='1573556169631'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d8b1d338-16c5-4e76-a301-413228028042-attachment.png' type='image/png' size='25117'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573556169632' status='passed' stop='1573556169643'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='1206b180-0dbe-43cb-b469-6284d77f37a2-attachment.json' type='application/json' size='1445'/>
+                        <attachment title='Response' source='e5d29d64-c3d5-418f-9736-28d17c7b7a23-attachment.json' type='application/json' size='3'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573556170153' status='passed' stop='1573556170172'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='6df0fe4e-ffd9-42e4-921b-3b525edd6ec0-attachment.json' type='application/json' size='314'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1573556170182' status='broken' stop='1573556170437'>
+            <name>Should make screen of language label</name>
+            <title>Should make screen of language label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.97'/>
+            </parameters>
+            <steps>
+                <step start='1573556170182' status='passed' stop='1573556170381'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1573556170183' status='passed' stop='1573556170381'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='ce472acd-835c-4383-ba69-0ba569870428-attachment.json' type='application/json' size='53'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1573556170382' status='passed' stop='1573556170416'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='19699ed2-b06c-4bcd-af19-14b88020ac16-attachment.json' type='application/json' size='99'/>
+                        <attachment title='Response' source='126a7874-5167-48df-a6e5-85410bacc550-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot use 'in' operator to search for 'disableCSSAnimation' in languagelabel</message>
+                <stack-trace>TypeError: Cannot use 'in' operator to search for 'disableCSSAnimation' in languagelabel
+                    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/commands/saveFullPageScreen.ts:28:61
+                    at step (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/commands/saveFullPageScreen.js:33:23)
+                    at Object.next (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/commands/saveFullPageScreen.js:14:53)
+                    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/commands/saveFullPageScreen.js:8:71
+                    at saveFullPageScreen (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/commands/saveFullPageScreen.js:44:12)
+                    at Browser.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/wdio-image-comparison-service/build/service.js:73:46)
+                    at Browser.saveFullPageScreen (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/monad.js:116:27)
+                    at Context.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/MakeScreen.spec.js:11:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

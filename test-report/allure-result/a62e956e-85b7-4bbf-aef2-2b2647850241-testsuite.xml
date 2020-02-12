@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572535124811' stop='1572535128992'>
+    <name>Smoke test</name>
+    <title>Smoke test</title>
+    <test-cases>
+        <test-case start='1572535128990' status='broken' stop='1572535128991'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.70'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>socket hang up</message>
+                <stack-trace>Error: socket hang up
+                    at connResetException (internal/errors.js:561:14)
+                    at Socket.socketOnEnd (_http_client.js:440:23)
+                    at endReadableNT (_stream_readable.js:1178:12)
+                    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+                    at LoginPage.open (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Login.page.js:3:17)
+                    at Context.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/specs/Smoke.spec.js:77:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

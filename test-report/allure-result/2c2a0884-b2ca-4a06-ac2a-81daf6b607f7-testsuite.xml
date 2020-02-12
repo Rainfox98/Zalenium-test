@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573553385091' stop='1573553387570'>
+    <name>Visual regression tests on the home page.</name>
+    <title>Visual regression tests on the home page.</title>
+    <test-cases>
+        <test-case start='1573553387081' status='broken' stop='1573553387570'>
+            <name>Displays logo on the home page.</name>
+            <title>Displays logo on the home page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.97'/>
+            </parameters>
+            <steps>
+                <step start='1573553387086' status='passed' stop='1573553387107'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='2ea3f401-40c9-4984-9d8a-20098bb69eb8-attachment.json' type='application/json' size='313'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573553387109' status='passed' stop='1573553387125'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='c22e06a9-8b7b-4791-9dc6-8af0610e1740-attachment.json' type='application/json' size='1283'/>
+                        <attachment title='Response' source='ce039625-73da-4940-bb2e-59fd43226bce-attachment.json' type='application/json' size='463'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573553387126' status='passed' stop='1573553387505'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f7c7c3dc-0c83-4633-95f6-21a80604dc59-attachment.png' type='image/png' size='25117'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573553387507' status='broken' stop='1573553387569'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='727b22c3-8eff-4eff-9d79-eb650d7f82e0-attachment.json' type='application/json' size='376'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: element.getBoundingClientRect is not a function
+                  (Session info: chrome=78.0.3904.97)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)</message>
+                <stack-trace>Error: unknown error: element.getBoundingClientRect is not a function
+                  (Session info: chrome=78.0.3904.97)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Object.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/elementPosition.ts:55:10)
+                    at step (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:33:23)
+                    at Object.next (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:14:53)
+                    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:8:71
+                    at Object.getElementPositionDesktop (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:63:12)
+                    at Object.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/rectangles.ts:35:29)
+                    at Browser.checkElement (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/monad.js:116:27)
+                    at Context.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/HomePage.spec.js:11:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

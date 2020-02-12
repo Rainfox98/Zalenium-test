@@ -1,0 +1,74 @@
+{
+  "start": "2020-01-13T14:24:54.232Z",
+  "end": "2020-01-13T14:25:04.095Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "72.0.1",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20200107212822",
+    "moz:geckodriverVersion": "0.26.0",
+    "moz:headless": false,
+    "moz:processID": 946,
+    "moz:profile": "/tmp/rust_mozprofileaCRHJs",
+    "moz:shutdownTimeout": 60000,
+    "moz:useNonSpecCompliantPointerOrigin": false,
+    "moz:webdriverClick": true,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "platformVersion": "4.9.184-linuxkit",
+    "rotatable": false,
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webdriver.remote.sessionid": "341944cf-437e-4919-98dc-de8d04c26845"
+  },
+  "host": "localhost",
+  "port": 4444,
+  "baseUrl": "https://dev.mentalstack.com:3030/login",
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 60000,
+    "ui": "bdd",
+    "compilers": [
+      "js:@babel/register"
+    ]
+  },
+  "duration": 9863,
+  "suites": [
+    {
+      "title": "Visual regression tests on the home page.",
+      "duration": 3770,
+      "start": "2020-01-13T14:24:55.367Z",
+      "end": "2020-01-13T14:24:59.137Z",
+      "tests": [],
+      "hooks": [
+        {
+          "start": "2020-01-13T14:24:55.388Z",
+          "end": "2020-01-13T14:24:59.130Z",
+          "duration": 3742,
+          "title": "\"before all\" hook",
+          "associatedSuite": "Visual regression tests on the home page.",
+          "error": {
+            "type": "unknown error",
+            "message": "Reached error page: about:neterror?e=connectionFailure&u=https%3A//dev.mentalstack.com%3A3030/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20dev.mentalstack.com%3A3030.",
+            "stack": "unknown error: Reached error page: about:neterror?e=connectionFailure&u=https%3A//dev.mentalstack.com%3A3030/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20dev.mentalstack.com%3A3030.\n    at LoginPage.openPage (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Login.page.js:3:17)\n    at Context.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/LoginPage.spec.js:6:19)"
+          }
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/LoginPage.spec.js"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}

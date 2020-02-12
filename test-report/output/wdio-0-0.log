@@ -1,0 +1,367 @@
+2020-01-13T14:23:48.805Z INFO @wdio/local-runner: Run worker command: run
+2020-01-13T14:23:49.352Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "image-comparison"
+2020-01-13T14:23:49.414Z DEBUG @wdio/utils:initialiseServices: initialise custom service "TimelineService"
+2020-01-13T14:23:49.415Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "selenium-standalone"
+2020-01-13T14:23:49.534Z DEBUG @wdio/local-runner:utils: init remote session
+2020-01-13T14:23:49.535Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-01-13T14:23:49.537Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session
+2020-01-13T14:23:49.540Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      browserName: 'chrome',
+      'goog:chromeOptions': {},
+      'zal:recordVideo': true,
+      'zal:name': 'Demo Integration Tests',
+      'zal:build': 'WebDriverIO'
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    browserName: 'chrome',
+    'goog:chromeOptions': {},
+    'zal:recordVideo': true,
+    'zal:name': 'Demo Integration Tests',
+    'zal:build': 'WebDriverIO'
+  }
+}
+2020-01-13T14:24:09.994Z INFO webdriver: COMMAND setWindowRect(null, null, 1920, 1080)
+2020-01-13T14:24:09.994Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/window/rect
+2020-01-13T14:24:09.994Z INFO webdriver: DATA { x: null, y: null, width: 1920, height: 1080 }
+2020-01-13T14:24:10.304Z INFO webdriver: RESULT { height: 1079, width: 1919, x: 10, y: 10 }
+2020-01-13T14:24:11.304Z INFO webdriver: COMMAND navigateTo("https://dev.mentalstack.com:3030/")
+2020-01-13T14:24:11.305Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/url
+2020-01-13T14:24:11.305Z INFO webdriver: DATA { url: 'https://dev.mentalstack.com:3030/' }
+2020-01-13T14:24:12.388Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="root"]/main/div/div/form/button/span[2]")
+2020-01-13T14:24:12.389Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/element
+2020-01-13T14:24:12.389Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//*[@id="root"]/main/div/div/form/button/span[2]'
+}
+2020-01-13T14:24:12.662Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/main/div/div/form/button/span[2]"}\n' +
+    '  (Session info: chrome=79.0.3945.117)',
+  stacktrace: '#0 0x5563d3cd6479 <unknown>\n'
+}
+2020-01-13T14:24:12.669Z INFO webdriver: COMMAND checkElement(<object>, "Displays login button logo on login page.")
+2020-01-13T14:24:12.672Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:12.673Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:12.673Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ true ]
+}
+2020-01-13T14:24:12.800Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:12.800Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:12.800Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2020-01-13T14:24:12.918Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 415, scrollHeight: 415 },
+    html: {
+      clientHeight: 950,
+      clientWidth: 1911,
+      offsetHeight: 556,
+      scrollHeight: 950,
+      scrollWidth: 1911
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 950,
+      innerWidth: 1911,
+      outerHeight: 1079,
+      outerWidth: 1919,
+      screenHeight: 1080,
+      screenWidth: 1920
+    }
+  }
+}
+2020-01-13T14:24:12.919Z INFO webdriver: COMMAND takeScreenshot()
+2020-01-13T14:24:12.920Z INFO webdriver: [GET] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/screenshot
+2020-01-13T14:24:14.416Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAB3cAAAO2CAYAAAD7Xh2FAAAAAXNSR0IArs4c6...
+2020-01-13T14:24:14.448Z INFO webdriver: COMMAND findElement("xpath", "//*[@id="root"]/header/div/div/div[2]/div/button/span[1]/img")
+2020-01-13T14:24:14.448Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/element
+2020-01-13T14:24:14.448Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//*[@id="root"]/header/div/div/div[2]/div/button/span[1]/img'
+}
+2020-01-13T14:24:14.642Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/header/div/div/div[2]/div/button/span[1]/img"}\n' +
+    '  (Session info: chrome=79.0.3945.117)',
+  stacktrace: '#0 0x5563d3cd6479 <unknown>\n'
+}
+2020-01-13T14:24:14.646Z INFO webdriver: COMMAND checkElement(<object>, "Displays language selector logo.")
+2020-01-13T14:24:14.647Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:14.647Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:14.647Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ true ]
+}
+2020-01-13T14:24:14.742Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:14.743Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:14.744Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2020-01-13T14:24:14.955Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 415, scrollHeight: 415 },
+    html: {
+      clientHeight: 950,
+      clientWidth: 1911,
+      offsetHeight: 556,
+      scrollHeight: 950,
+      scrollWidth: 1911
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 950,
+      innerWidth: 1911,
+      outerHeight: 1079,
+      outerWidth: 1919,
+      screenHeight: 1080,
+      screenWidth: 1920
+    }
+  }
+}
+2020-01-13T14:24:14.957Z INFO webdriver: COMMAND takeScreenshot()
+2020-01-13T14:24:14.957Z INFO webdriver: [GET] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/screenshot
+2020-01-13T14:24:15.735Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAB3cAAAO2CAYAAAD7Xh2FAAAAAXNSR0IArs4c6...
+2020-01-13T14:24:15.739Z INFO webdriver: COMMAND checkFullPageScreen("fullPage", <object>)
+2020-01-13T14:24:15.741Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:15.741Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:15.741Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ true ]
+}
+2020-01-13T14:24:15.809Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:15.809Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:15.809Z INFO webdriver: DATA {
+  script: 'return (function getScreenDimensions() {\n' +
+    '    var body = document.body;\n' +
+    '    var html = document.documentElement;\n' +
+    '    var bodyDimensions = {\n' +
+    '        scrollHeight: body == null ? 0 : body.scrollHeight,\n' +
+    '        offsetHeight: body == null ? 0 : body.offsetHeight\n' +
+    '    };\n' +
+    '    var htmlDimensions = {\n' +
+    '        clientHeight: html == null ? 0 : html.clientHeight,\n' +
+    '        clientWidth: html == null ? 0 : html.clientWidth,\n' +
+    '        scrollHeight: html == null ? 0 : html.scrollHeight,\n' +
+    '        scrollWidth: html == null ? 0 : html.scrollWidth,\n' +
+    '        offsetHeight: html == null ? 0 : html.offsetHeight\n' +
+    '    };\n' +
+    '    var windowDimensions = {\n' +
+    '        innerWidth: window.innerWidth,\n' +
+    '        innerHeight: window.innerHeight,\n' +
+    '        outerHeight: window.outerHeight === 0 ? htmlDimensions.clientHeight : window.outerHeight,\n' +
+    '        outerWidth: window.outerWidth === 0 ? htmlDimensions.clientWidth : window.outerWidth,\n' +
+    '        devicePixelRatio: window.devicePixelRatio,\n' +
+    '        screenWidth: window.screen.width,\n' +
+    '        screenHeight: window.screen.height,\n' +
+    '    };\n' +
+    '    return {\n' +
+    '        dimensions: {\n' +
+    '            body: bodyDimensions,\n' +
+    '            html: htmlDimensions,\n' +
+    '            window: windowDimensions\n' +
+    '        }\n' +
+    '    };\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2020-01-13T14:24:15.863Z INFO webdriver: RESULT {
+  dimensions: {
+    body: { offsetHeight: 415, scrollHeight: 415 },
+    html: {
+      clientHeight: 950,
+      clientWidth: 1911,
+      offsetHeight: 556,
+      scrollHeight: 950,
+      scrollWidth: 1911
+    },
+    window: {
+      devicePixelRatio: 1,
+      innerHeight: 950,
+      innerWidth: 1911,
+      outerHeight: 1079,
+      outerWidth: 1919,
+      screenHeight: 1080,
+      screenWidth: 1920
+    }
+  }
+}
+2020-01-13T14:24:15.866Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:15.866Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:15.866Z INFO webdriver: DATA {
+  script: 'return (function scrollToPosition(yPosition) {\n' +
+    '    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n' +
+    '}).apply(null, arguments)',
+  args: [ 0 ]
+}
+2020-01-13T14:24:17.480Z INFO webdriver: COMMAND takeScreenshot()
+2020-01-13T14:24:17.481Z INFO webdriver: [GET] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/screenshot
+2020-01-13T14:24:18.425Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAAB3cAAAO2CAYAAAD7Xh2FAAAAAXNSR0IArs4c6...
+2020-01-13T14:24:18.430Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:18.430Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:18.430Z INFO webdriver: DATA {
+  script: 'return (function getDocumentScrollHeight() {\n' +
+    '    var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);\n' +
+    '    var scrollHeight = document.documentElement.scrollHeight;\n' +
+    '    var bodyScrollHeight = document.body.scrollHeight;\n' +
+    '    if ((viewPortHeight === scrollHeight) && (bodyScrollHeight > scrollHeight)) {\n' +
+    '        return bodyScrollHeight;\n' +
+    '    }\n' +
+    '    var pageHeight = 0;\n' +
+    "    var largestNodeElement = document.querySelector('body');\n" +
+    '    if (bodyScrollHeight === scrollHeight && bodyScrollHeight === viewPortHeight) {\n' +
+    '        findHighestNode(document.documentElement.childNodes);\n' +
+    '        return pageHeight + largestNodeElement.getBoundingClientRect().top;\n' +
+    '    }\n' +
+    '    return scrollHeight;\n' +
+    '    function findHighestNode(nodesList) {\n' +
+    '        for (var i = nodesList.length - 1; i >= 0; i--) {\n' +
+    '            var currentNode = nodesList[i];\n' +
+    '            if (currentNode.scrollHeight && currentNode.clientHeight) {\n' +
+    '                var elHeight = Math.max(currentNode.scrollHeight, currentNode.clientHeight);\n' +
+    '                pageHeight = Math.max(elHeight, pageHeight);\n' +
+    '                if (elHeight === pageHeight) {\n' +
+    '                    largestNodeElement = currentNode;\n' +
+    '                }\n' +
+    '            }\n' +
+    '            if (currentNode.childNodes.length) {\n' +
+    '                findHighestNode(currentNode.childNodes);\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: []
+}
+2020-01-13T14:24:18.501Z INFO webdriver: RESULT 950
+2020-01-13T14:24:19.898Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+2020-01-13T14:24:19.900Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/execute/sync
+2020-01-13T14:24:19.902Z INFO webdriver: DATA {
+  script: 'return (function hideScrollBars(hide) {\n' +
+    '    try {\n' +
+    '        if (hide) {\n' +
+    "            document.body.style.overflow = 'hidden';\n" +
+    '        }\n' +
+    '        else {\n' +
+    "            document.body.style.overflow = '';\n" +
+    '        }\n' +
+    '    }\n' +
+    '    catch (e) {\n' +
+    '    }\n' +
+    '}).apply(null, arguments)',
+  args: [ false ]
+}
+2020-01-13T14:24:20.702Z INFO webdriver: RESULT 0
+2020-01-13T14:24:20.747Z INFO webdriver: COMMAND getLogTypes()
+2020-01-13T14:24:20.748Z INFO webdriver: [GET] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/se/log/types
+2020-01-13T14:24:20.824Z INFO webdriver: RESULT [ 'browser', 'driver' ]
+2020-01-13T14:24:20.824Z DEBUG @wdio/runner: Fetching logs for browser, driver
+2020-01-13T14:24:20.825Z INFO webdriver: COMMAND getLogs("driver")
+2020-01-13T14:24:20.826Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/se/log
+2020-01-13T14:24:20.826Z INFO webdriver: DATA { type: 'driver' }
+2020-01-13T14:24:20.826Z INFO webdriver: COMMAND getLogs("browser")
+2020-01-13T14:24:20.827Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b/se/log
+2020-01-13T14:24:20.827Z INFO webdriver: DATA { type: 'browser' }
+2020-01-13T14:24:20.988Z INFO webdriver: RESULT []
+2020-01-13T14:24:21.102Z INFO webdriver: RESULT []
+2020-01-13T14:24:21.102Z INFO webdriver: COMMAND deleteSession()
+2020-01-13T14:24:21.103Z INFO webdriver: [DELETE] http://localhost:4444/wd/hub/session/7cc397a117d0572ac2be718b5119196b

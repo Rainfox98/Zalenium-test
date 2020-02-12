@@ -1,0 +1,30 @@
+2020-01-13T14:23:45.863Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "image-comparison"
+2020-01-13T14:23:45.922Z DEBUG @wdio/utils:initialiseServices: initialise custom service "TimelineService"
+2020-01-13T14:23:45.922Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "selenium-standalone"
+2020-01-13T14:23:45.955Z INFO @wdio/cli:launcher: Run onPrepare hook
+2020-01-13T14:23:48.202Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js,--spec,test/visualRegression/LoginPage.spec.js,test/visualRegression/MakeScreen.spec.js
+2020-01-13T14:24:21.424Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 1
+2020-01-13T14:24:21.425Z INFO @wdio/local-runner: Start worker 0-1 with arg: wdio.conf.js,--spec,test/visualRegression/LoginPage.spec.js,test/visualRegression/MakeScreen.spec.js
+2020-01-13T14:24:40.789Z DEBUG @wdio/local-runner: Runner 0-1 finished with exit code 1
+2020-01-13T14:24:40.790Z INFO @wdio/local-runner: Start worker 1-0 with arg: wdio.conf.js,--spec,test/visualRegression/LoginPage.spec.js,test/visualRegression/MakeScreen.spec.js
+2020-01-13T14:25:02.700Z INFO @wdio/local-runner: Shutting down spawned worker
+2020-01-13T14:25:02.962Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-01-13T14:25:03.213Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-01-13T14:25:03.465Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-01-13T14:25:03.720Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-01-13T14:25:03.971Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-01-13T14:25:04.226Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-01-13T14:25:04.233Z DEBUG @wdio/local-runner: Runner 1-0 finished with exit code 1
+2020-01-13T14:25:04.234Z INFO @wdio/cli:launcher: Run onComplete hook
+2020-01-13T14:25:04.241Z INFO @wdio/selenium-standalone-service: shutting down all browsers
+nner 1-2 finished with exit code 1
+2020-01-13T14:24:25.329Z INFO @wdio/local-runner: Start worker 1-3 with arg: wdio.conf.js
+2020-01-13T14:24:57.035Z DEBUG @wdio/local-runner: Runner 1-3 finished with exit code 1
+2020-01-13T14:24:57.036Z INFO @wdio/local-runner: Start worker 1-4 with arg: wdio.conf.js
+2020-01-13T14:25:13.377Z DEBUG @wdio/local-runner: Runner 1-4 finished with exit code 1
+2020-01-13T14:25:13.378Z INFO @wdio/local-runner: Start worker 1-5 with arg: wdio.conf.js
+2020-01-13T14:25:26.546Z DEBUG @wdio/local-runner: Runner 1-5 finished with exit code 1
+2020-01-13T14:25:26.547Z INFO @wdio/cli:launcher: Run onComplete hook
+2020-01-13T14:25:26.554Z INFO @wdio/selenium-standalone-service: shutting down all browsers
+2020-01-13T14:25:26.613Z INFO @wdio/local-runner: Shutting down spawned worker
+2020-01-13T14:25:26.868Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully

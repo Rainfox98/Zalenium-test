@@ -1,0 +1,447 @@
+[1578925369.395][INFO]: Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})
+[1578925369.395][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1578925369.397][SEVERE]: bind() failed: Cannot assign requested address (99)
+[1578925369.397][INFO]: listen on IPv6 failed with error ERR_ADDRESS_INVALID
+[1578925369.466][INFO]: [0860f0d18aa5989ecf17d2817878559a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+
+         },
+         "zal:build": "WebDriverIO",
+         "zal:name": "Demo Integration Tests",
+         "zal:recordVideo": true
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+
+      },
+      "zal:build": "WebDriverIO",
+      "zal:name": "Demo Integration Tests",
+      "zal:recordVideo": true
+   }
+}
+[1578925369.466][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1578925369.467][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1578925369.467][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/tmp/.com.google.Chrome.J29PJB/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.cUipY9 data:,
+[864:864:0113/152249.663673:ERROR:browser_dm_token_storage_linux.cc(100)] Error: /etc/machine-id contains 0 characters (32 were expected).
+
+DevTools listening on ws://127.0.0.1:38273/devtools/browser/043a5e06-a05d-4778-8cd0-ac5cf1a5c08b
+[1578925370.031][DEBUG]: DevTools HTTP Request: http://localhost:38273/json/version
+[1578925370.129][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/79.0.3945.117",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36",
+   "V8-Version": "7.9.317.32",
+   "WebKit-Version": "537.36 (@04f0a055010adab4484f7497fbfdbf312c307f1d)",
+   "webSocketDebuggerUrl": "ws://localhost:38273/devtools/browser/043a5e06-a05d-4778-8cd0-ac5cf1a5c08b"
+}
+
+[1578925370.129][DEBUG]: DevTools HTTP Request: http://localhost:38273/json
+[1578925370.196][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:38273/devtools/page/046F5AFCEE8BE9D3D1BB72F53EF3FE8B",
+   "id": "046F5AFCEE8BE9D3D1BB72F53EF3FE8B",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:38273/devtools/page/046F5AFCEE8BE9D3D1BB72F53EF3FE8B"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:38273/devtools/page/A060EBAE58DD68F7673C65C9EDFB6C5A",
+   "id": "A060EBAE58DD68F7673C65C9EDFB6C5A",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:38273/devtools/page/A060EBAE58DD68F7673C65C9EDFB6C5A"
+} ]
+
+[1578925370.197][DEBUG]: DevTools HTTP Request: http://localhost:38273/json
+[1578925370.222][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:38273/devtools/page/046F5AFCEE8BE9D3D1BB72F53EF3FE8B",
+   "id": "046F5AFCEE8BE9D3D1BB72F53EF3FE8B",
+   "title": "Chrome Automation Extension",
+   "type": "background_page",
+   "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:38273/devtools/page/046F5AFCEE8BE9D3D1BB72F53EF3FE8B"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:38273/devtools/page/A060EBAE58DD68F7673C65C9EDFB6C5A",
+   "id": "A060EBAE58DD68F7673C65C9EDFB6C5A",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:38273/devtools/page/A060EBAE58DD68F7673C65C9EDFB6C5A"
+} ]
+
+[1578925370.222][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[864:940:0113/152250.226271:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[864:940:0113/152250.227821:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[864:940:0113/152250.228499:ERROR:object_proxy.cc(632)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[1578925370.296][DEBUG]: DevTools WebSocket Command: Log.enable (id=1) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.296][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=2) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.297][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=3) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1578925370.297][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.297][DEBUG]: DevTools WebSocket Command: Page.enable (id=5) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.581][DEBUG]: DevTools WebSocket Response: Log.enable (id=1) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.581][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=2) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 0,
+      "children": [  ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1578925370.581][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=3) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.581][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.581][DEBUG]: DevTools WebSocket Response: Page.enable (id=5) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.581][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=6) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.589][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 3,
+      "childNodeCount": 0,
+      "frameId": "A060EBAE58DD68F7673C65C9EDFB6C5A",
+      "localName": "html",
+      "nodeId": 2,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 0
+}
+[1578925370.594][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "childNodeCount": 1,
+   "nodeId": 2
+}
+[1578925370.595][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "childNodeCount": 2,
+   "nodeId": 2
+}
+[1578925370.596][DEBUG]: DevTools WebSocket Event: Page.loadEventFired A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "timestamp": 22134.506101
+}
+[1578925370.597][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "frameId": "A060EBAE58DD68F7673C65C9EDFB6C5A"
+}
+[1578925370.597][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.597][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=7) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.598][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "timestamp": 22134.508874
+}
+[1578925370.608][DEBUG]: DevTools WebSocket Event: Page.frameResized A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.625][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "context": {
+      "auxData": {
+         "frameId": "A060EBAE58DD68F7673C65C9EDFB6C5A",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://"
+   }
+}
+[1578925370.644][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=6) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.644][DEBUG]: DevTools WebSocket Command: Page.enable (id=8) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.883][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=7) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "root": {
+      "backendNodeId": 2,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 5,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 4
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 5,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 6,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 4
+         } ],
+         "frameId": "A060EBAE58DD68F7673C65C9EDFB6C5A",
+         "localName": "html",
+         "nodeId": 4,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 3
+      } ],
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 3,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1578925370.905][DEBUG]: DevTools WebSocket Response: Page.enable (id=8) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.905][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.940][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925370.941][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1578925370.952][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1578925370.952][INFO]: [0860f0d18aa5989ecf17d2817878559a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "79.0.3945.117",
+      "chrome": {
+         "chromedriverVersion": "79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})",
+         "userDataDir": "/tmp/.com.google.Chrome.cUipY9"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:38273"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "0860f0d18aa5989ecf17d2817878559a"
+}
+[1578925371.990][INFO]: [0860f0d18aa5989ecf17d2817878559a] COMMAND SetWindowRect {
+   "height": 1080,
+   "width": 1920,
+   "x": null,
+   "y": null
+}
+[1578925371.990][INFO]: Waiting for pending navigations...
+[1578925371.990][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "expression": "1"
+}
+[1578925372.035][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578925372.035][INFO]: Done waiting for pending navigations. Status: ok
+[1578925372.072][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1578925372.075][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=1) browser {
+   "targetId": "A060EBAE58DD68F7673C65C9EDFB6C5A"
+}
+[1578925372.076][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=1) browser {
+   "bounds": {
+      "height": 1038,
+      "left": 10,
+      "top": 10,
+      "width": 945,
+      "windowState": "normal"
+   },
+   "windowId": 1
+}
+[1578925372.076][DEBUG]: DevTools WebSocket Command: Browser.setWindowBounds (id=2) browser {
+   "bounds": {
+      "height": 1080,
+      "width": 1920
+   },
+   "windowId": 1
+}
+[1578925372.100][DEBUG]: DevTools WebSocket Response: Browser.setWindowBounds (id=2) browser {
+
+}
+[1578925372.200][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=3) browser {
+   "targetId": "A060EBAE58DD68F7673C65C9EDFB6C5A"
+}
+[1578925372.206][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=3) browser {
+   "bounds": {
+      "height": 1079,
+      "left": 10,
+      "top": 10,
+      "width": 1919,
+      "windowState": "normal"
+   },
+   "windowId": 1
+}
+[1578925372.206][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=4) browser {
+   "targetId": "A060EBAE58DD68F7673C65C9EDFB6C5A"
+}
+[1578925372.225][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=4) browser {
+   "bounds": {
+      "height": 1079,
+      "left": 10,
+      "top": 10,
+      "width": 1919,
+      "windowState": "normal"
+   },
+   "windowId": 1
+}
+[1578925372.225][INFO]: Waiting for pending navigations...
+[1578925372.225][DEBUG]: DevTools WebSocket Event: Page.frameResized A060EBAE58DD68F7673C65C9EDFB6C5A {
+
+}
+[1578925372.225][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "expression": "1"
+}
+[1578925372.228][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) A060EBAE58DD68F7673C65C9EDFB6C5A {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1578925372.228][INFO]: Done waiting for pending navigations. Status: ok
+[1578925372.228][INFO]: [0860f0d18aa5989ecf17d2817878559a] RESPONSE SetWindowRect {
+   "height": 1079,
+   "width": 1919,
+   "x": 10,
+   "y": 10
+}
+[1578925373.696][INFO]: [0860f0d18aa5989ecf17d2817878559a] COMMAND Quit {
+
+}
+[1578925373.805][INFO]: [0860f0d18aa5989ecf17d2817878559a] RESPONSE Quit
+[1578925373.805][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1578925373.805][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[0113/142253.810411:ERROR:nacl_helper_linux.cc(311)] NaCl helper process running without a sandbox!
+Most likely you need to configure your SUID sandbox correctly

@@ -1,0 +1,24 @@
+15:23:59.351 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: 82b03c358b
+15:24:00.400 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 40003
+2020-01-13 15:24:01.326:INFO::main: Logging initialized @3744ms to org.seleniumhq.jetty9.util.log.StdErrLog
+15:24:03.771 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+15:24:04.758 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 40003
+15:24:04.759 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+15:24:04.980 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 62000 ms.
+15:24:06.009 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://172.18.0.2:4445/grid/register
+15:24:06.309 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+15:24:06.729 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+  },
+  "zal:build": "WebDriverIO",
+  "zal:name": "Demo Integration Tests",
+  "zal:recordVideo": true
+}
+15:24:06.741 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 20072
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+15:24:09.511 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+15:24:09.664 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 7cc397a117d0572ac2be718b5119196b (org.openqa.selenium.chrome.ChromeDriverService)
+15:24:21.350 INFO [ActiveSessions$1.onStop] - Removing session 7cc397a117d0572ac2be718b5119196b (org.openqa.selenium.chrome.ChromeDriverService)

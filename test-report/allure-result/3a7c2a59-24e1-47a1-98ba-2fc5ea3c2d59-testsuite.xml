@@ -1,0 +1,194 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572522788999' stop='1572522792459'>
+    <name>Users function test</name>
+    <title>Users function test</title>
+    <test-cases>
+        <test-case start='1572522792064' status='broken' stop='1572522792388'>
+            <name>Should be created new User</name>
+            <title>Should be created new User</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.70'/>
+            </parameters>
+            <steps>
+                <step start='1572522792067' status='passed' stop='1572522792087'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ffa175d5-f755-4ae3-9fdb-80ebdd723f12-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='6af9fa32-5b1f-4f56-9ed6-dd106366826b-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572522792094' status='passed' stop='1572522792110'>
+                    <name>GET /session/:sessionId/element/0.4501808952021127-1/enabled</name>
+                    <title>GET /session/:sessionId/element/0.4501808952021127-1/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='49606d54-42f6-48e2-be83-7f8037ec2c5b-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572522792111' status='passed' stop='1572522792122'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='41e7169a-087b-4fc7-8603-c9d7cc0aa717-attachment.json' type='application/json' size='41'/>
+                        <attachment title='Response' source='1d85a068-6db1-4c6a-9ed7-5939dd7f2490-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572522792125' status='passed' stop='1572522792148'>
+                    <name>POST /session/:sessionId/element/0.4501808952021127-1/clear</name>
+                    <title>POST /session/:sessionId/element/0.4501808952021127-1/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1572522792152' status='passed' stop='1572522792346'>
+                    <name>POST /session/:sessionId/element/0.4501808952021127-1/value</name>
+                    <title>POST /session/:sessionId/element/0.4501808952021127-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='564ae272-39c1-4c13-9675-f6e8f0c03da9-attachment.json' type='application/json' size='235'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1572522792347' status='broken' stop='1572522792387'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e4e052e1-2477-4d2b-a543-e52ebac973f8-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)</message>
+                <stack-trace>Error: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at global.$ (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/runner/build/index.js:160:36)
+                    at LoginPage.$ [as passwordInput] (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Login.page.js:15:16)
+                    at LoginPage.passwordInput [as logIn] (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Login.page.js:33:14)
+                    at Context.logIn (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/specs/UserPageTest.spec.js:13:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1572522792388' status='broken' stop='1572522792421'>
+            <name>Should be edited Roles</name>
+            <title>Should be edited Roles</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.70'/>
+            </parameters>
+            <steps>
+                <step start='1572522792389' status='broken' stop='1572522792421'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='178043c9-7433-4ed0-8008-c667e6cc297f-attachment.json' type='application/json' size='143'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)</message>
+                <stack-trace>Error: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)
+                    at global.$ (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/runner/build/index.js:160:36)
+                    at UsersPage.$ [as EditButton] (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Users.page.js:61:16)
+                    at Context.EditButton (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/specs/UserPageTest.spec.js:28:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1572522792421' status='broken' stop='1572522792440'>
+            <name>Should be find element with name Bruno Buchelatti</name>
+            <title>Should be find element with name Bruno Buchelatti</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.70'/>
+            </parameters>
+            <steps>
+                <step start='1572522792422' status='broken' stop='1572522792440'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bd478057-3dde-437d-a822-0b7ef83b28a4-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)</message>
+                <stack-trace>Error: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)
+                    at global.$ (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/runner/build/index.js:160:36)
+                    at UsersPage.$ [as SearchField] (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Users.page.js:15:16)
+                    at UsersPage.SearchField [as SearchUser] (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Users.page.js:106:14)
+                    at Context.SearchUser (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/specs/UserPageTest.spec.js:35:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1572522792440' status='broken' stop='1572522792458'>
+            <name>Should be deleted user</name>
+            <title>Should be deleted user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.70'/>
+            </parameters>
+            <steps>
+                <step start='1572522792441' status='broken' stop='1572522792458'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b255288b-b6bb-4323-9b4e-7a02de9441cd-attachment.json' type='application/json' size='141'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)</message>
+                <stack-trace>Error: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)
+                    at global.$ (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/runner/build/index.js:160:36)
+                    at UsersPage.$ [as DeleteButton] (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Users.page.js:67:16)
+                    at Context.DeleteButton (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/specs/UserPageTest.spec.js:39:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

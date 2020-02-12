@@ -1,0 +1,6 @@
+2020-01-13 15:23:00,185 INFO spawned: 'video-rec' with pid 1197
+2020-01-13 15:23:00,186 INFO success: video-rec entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2020-01-13 15:23:03,173 INFO waiting for video-rec to stop
+2020-01-13 15:23:05,173 INFO waiting for video-rec to stop
+2020-01-13 15:23:07,177 INFO waiting for video-rec to stop
+2020-01-13 15:23:07,769 INFO stopped: video-rec (exit status 0)

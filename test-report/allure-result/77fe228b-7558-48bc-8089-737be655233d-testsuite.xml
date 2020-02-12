@@ -1,0 +1,165 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573559162463' stop='1573559166616'>
+    <name>Visual regression tests on the home page.</name>
+    <title>Visual regression tests on the home page.</title>
+    <test-cases>
+        <test-case start='1573559165359' status='passed' stop='1573559166204'>
+            <name>Displays login button logo on login page.</name>
+            <title>Displays login button logo on login page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.97'/>
+            </parameters>
+            <steps>
+                <step start='1573559165362' status='passed' stop='1573559165385'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cefdc2ff-f01a-4570-96d4-c1e9ec1bb322-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='b6a07754-4501-4454-a7d3-c1b630a28ec9-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559165395' status='passed' stop='1573559165408'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='15e23b40-066a-48da-bf4f-2cb0bbe733ba-attachment.json' type='application/json' size='313'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559165409' status='passed' stop='1573559165426'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='fe71170a-640f-404c-8c13-69f345a31714-attachment.json' type='application/json' size='1283'/>
+                        <attachment title='Response' source='eecaf8ce-8f85-48f3-98ff-5c8d84cead59-attachment.json' type='application/json' size='463'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559165427' status='passed' stop='1573559165784'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5eefcd49-b4fc-4e35-ad1f-98652752cc8f-attachment.png' type='image/png' size='25117'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559165785' status='passed' stop='1573559165795'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='d8bd233c-1b5d-4385-b7fe-691392c9d2df-attachment.json' type='application/json' size='492'/>
+                        <attachment title='Response' source='ca681ac2-c4a3-4d36-92b4-bb5ba9d98679-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559166184' status='passed' stop='1573559166193'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='e621f12e-4896-465a-abf5-dbfb65411720-attachment.json' type='application/json' size='314'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1573559166204' status='passed' stop='1573559166604'>
+            <name>Displays language selector logo.</name>
+            <title>Displays language selector logo.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.97'/>
+            </parameters>
+            <steps>
+                <step start='1573559166205' status='passed' stop='1573559166225'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='df026dfe-c474-4f01-88dd-c927f67ea3fd-attachment.json' type='application/json' size='99'/>
+                        <attachment title='Response' source='7709f54d-108a-458a-92ad-2902b3f546ca-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559166228' status='passed' stop='1573559166247'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='7f5c45f2-df56-4c56-b154-752defd61efb-attachment.json' type='application/json' size='313'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559166247' status='passed' stop='1573559166259'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='035558e8-fc75-41aa-b607-881df91283dd-attachment.json' type='application/json' size='1283'/>
+                        <attachment title='Response' source='b6b07c3c-e412-46d7-88c8-74c9431c065e-attachment.json' type='application/json' size='463'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559166259' status='passed' stop='1573559166560'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='eed3aa6c-94f5-4884-91a0-0b3e3cdeb2d7-attachment.png' type='image/png' size='25117'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559166560' status='passed' stop='1573559166570'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='21d98c34-785d-4642-87f3-430d6e9af82f-attachment.json' type='application/json' size='492'/>
+                        <attachment title='Response' source='2b6a621b-a954-40ad-b016-0c899ae27a5a-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1573559166594' status='passed' stop='1573559166602'>
+                    <name>POST /session/:sessionId/execute</name>
+                    <title>POST /session/:sessionId/execute</title>
+                    <attachments>
+                        <attachment title='Request' source='3a9b5a48-be34-4453-9ade-50740ca6179a-attachment.json' type='application/json' size='314'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1573559166604' status='broken' stop='1573559166616'>
+            <name>Displays full page.</name>
+            <title>Displays full page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.97'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot use 'in' operator to search for 'disableCSSAnimation' in Displays full page.</message>
+                <stack-trace>TypeError: Cannot use 'in' operator to search for 'disableCSSAnimation' in Displays full page.
+                    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/commands/checkFullPageScreen.ts:27:30
+                    at step (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/commands/checkFullPageScreen.js:44:23)
+                    at Object.next (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/commands/checkFullPageScreen.js:25:53)
+                    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/commands/checkFullPageScreen.js:19:71
+                    at checkFullPageScreen (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/commands/checkFullPageScreen.js:55:12)
+                    at Browser.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/wdio-image-comparison-service/build/service.js:112:47)
+                    at Browser.checkFullPageScreen (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/monad.js:116:27)
+                    at Context.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/HomePage.spec.js:23:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

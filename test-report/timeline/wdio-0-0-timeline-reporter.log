@@ -1,0 +1,108 @@
+{
+  "start": "2020-01-13T14:24:09.989Z",
+  "end": "2020-01-13T14:24:21.283Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "79.0.3945.117",
+    "chrome": {
+      "chromedriverVersion": "79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})",
+      "userDataDir": "/tmp/.com.google.Chrome.VdT3Su"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:42179"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webdriver.remote.sessionid": "7cc397a117d0572ac2be718b5119196b"
+  },
+  "host": "localhost",
+  "port": 4444,
+  "baseUrl": "https://dev.mentalstack.com:3030/login",
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 60000,
+    "ui": "bdd",
+    "compilers": [
+      "js:@babel/register"
+    ]
+  },
+  "duration": 11294,
+  "suites": [
+    {
+      "title": "Visual regression tests on the home page.",
+      "duration": 9483,
+      "start": "2020-01-13T14:24:11.263Z",
+      "end": "2020-01-13T14:24:20.746Z",
+      "tests": [
+        {
+          "title": "Displays login button logo on login page.",
+          "start": "2020-01-13T14:24:12.383Z",
+          "end": "2020-01-13T14:24:14.445Z",
+          "duration": 2062,
+          "state": "failed",
+          "screenshots": [
+            "/Users/mentalstack/Documents/GitHub/unit-e2e/test-report/timeline/file-1578925454417.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element with selector \"//*[@id=\"root\"]/main/div/div/form/button/span[2]\" you trying to pass into the execute method wasn't found",
+            "stack": "Error: The element with selector \"//*[@id=\"root\"]/main/div/div/form/button/span[2]\" you trying to pass into the execute method wasn't found\n    at Array.map (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at Object.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/elementPosition.ts:55:10)\n    at step (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:33:23)\n    at Object.next (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:14:53)\n    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:8:71\n    at Object.getElementPositionDesktop (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:63:12)\n    at Object.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/rectangles.ts:35:29)\n    at Browser.checkElement (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/monad.js:116:27)\n    at Context.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/LoginPage.spec.js:11:21)"
+          }
+        },
+        {
+          "title": "Displays language selector logo.",
+          "start": "2020-01-13T14:24:14.446Z",
+          "end": "2020-01-13T14:24:15.738Z",
+          "duration": 1292,
+          "state": "failed",
+          "screenshots": [
+            "/Users/mentalstack/Documents/GitHub/unit-e2e/test-report/timeline/file-1578925455736.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element with selector \"//*[@id=\"root\"]/header/div/div/div[2]/div/button/span[1]/img\" you trying to pass into the execute method wasn't found",
+            "stack": "Error: The element with selector \"//*[@id=\"root\"]/header/div/div/div[2]/div/button/span[1]/img\" you trying to pass into the execute method wasn't found\n    at Array.map (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at Object.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/elementPosition.ts:55:10)\n    at step (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:33:23)\n    at Object.next (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:14:53)\n    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:8:71\n    at Object.getElementPositionDesktop (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:63:12)\n    at Object.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/rectangles.ts:35:29)\n    at Browser.checkElement (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/monad.js:116:27)\n    at Context.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/LoginPage.spec.js:17:21)"
+          }
+        },
+        {
+          "title": "Displays full page.",
+          "start": "2020-01-13T14:24:15.739Z",
+          "end": "2020-01-13T14:24:20.706Z",
+          "duration": 4967,
+          "state": "passed",
+          "screenshots": [
+            "/Users/mentalstack/Documents/GitHub/unit-e2e/test-report/timeline/file-1578925458427.jpeg"
+          ]
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2020-01-13T14:24:11.270Z",
+          "end": "2020-01-13T14:24:12.383Z",
+          "duration": 1113,
+          "title": "\"before all\" hook",
+          "associatedSuite": "Visual regression tests on the home page."
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/LoginPage.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 2,
+    "skipped": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "user": {
+    "email": "dsherbak@mentalstack.com",
+    "password": "3333333"
+  },
+  "emptyEmailUser": {
+    "email": "",
+    "password": "3333333"
+  },
+  "emptyPasswordUser": {
+    "email": "dsherbak@mentalstack.com",
+    "password": ""
+  },
+  "incorrectEmailUser": {
+    "email": "qweqwe@qwe.qwe",
+    "password": "3333333"
+  },
+  "incorrectPasswordUser": {
+    "email": "dsherbak@mentalstack.com",
+    "password": "ghjklasdf"
+  }
+}

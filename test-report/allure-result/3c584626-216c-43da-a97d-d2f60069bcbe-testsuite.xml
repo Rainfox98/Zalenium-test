@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572524868295' stop='1572524869906'>
+    <name>Smoke test</name>
+    <title>Smoke test</title>
+    <test-cases>
+        <test-case start='1572524869864' status='broken' stop='1572524869905'>
+            <name>should render Roles page</name>
+            <title>should render Roles page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.70'/>
+            </parameters>
+            <steps>
+                <step start='1572524869865' status='broken' stop='1572524869905'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1572524869867' status='broken' stop='1572524869905'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='da54818e-2f55-4665-b170-8d3bbc311062-attachment.json' type='application/json' size='41'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)</message>
+                <stack-trace>Error: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=78.0.3904.70)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.5 x86_64)
+                    at global.$ (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/runner/build/index.js:160:36)
+                    at LoginPage.$ [as emailInput] (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Login.page.js:11:16)
+                    at LoginPage.emailInput [as logIn] (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/pages/Login.page.js:31:14)
+                    at Context.logIn (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/specs/Smoke.spec.js:80:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,165 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1578925474189' stop='1578925480342'>
+    <name>Example</name>
+    <title>Example</title>
+    <test-cases>
+        <test-case start='1578925474189' status='passed' stop='1578925479107'>
+            <name>Should make screen of full page</name>
+            <title>Should make screen of full page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1578925474190' status='passed' stop='1578925475318'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1578925474193' status='passed' stop='1578925475317'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='1fef185d-a67d-44d3-b165-3fcfba9a9a0c-attachment.json' type='application/json' size='53'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1578925475321' status='passed' stop='1578925475416'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='e861096a-8825-40e7-a8ee-a635722bb581-attachment.json' type='application/json' size='313'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1578925475417' status='passed' stop='1578925475552'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='4b1f6407-71bd-4286-8001-ec2cc4164689-attachment.json' type='application/json' size='1283'/>
+                        <attachment title='Response' source='39c01c53-07aa-433f-8ccd-32c3560a43be-attachment.json' type='application/json' size='464'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1578925475554' status='passed' stop='1578925475653'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0434778c-ee1a-4b14-a8ed-8626fdbdea0b-attachment.json' type='application/json' size='198'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1578925477156' status='passed' stop='1578925477976'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='24f39874-82f6-4901-a110-9a9a283dc145-attachment.png' type='image/png' size='35045'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1578925477977' status='passed' stop='1578925478013'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b516f276-9761-43bf-82b4-943e78e0f7e9-attachment.json' type='application/json' size='1445'/>
+                        <attachment title='Response' source='9058f2cf-be07-4f89-b8e4-9894940557a8-attachment.json' type='application/json' size='3'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1578925478944' status='passed' stop='1578925479106'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='48930afc-0e49-4fe0-b636-023ca658f15c-attachment.json' type='application/json' size='314'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1578925479108' status='broken' stop='1578925480341'>
+            <name>Should make screen of language label</name>
+            <title>Should make screen of language label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1578925479108' status='passed' stop='1578925479531'>
+                    <name>"before each" hook</name>
+                    <title>"before each" hook</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1578925479109' status='passed' stop='1578925479531'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='4da86f02-467c-4f51-81f8-ea34169c0fcd-attachment.json' type='application/json' size='53'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1578925479532' status='passed' stop='1578925479719'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7595e717-5699-4842-92d0-976a81de309f-attachment.json' type='application/json' size='99'/>
+                        <attachment title='Response' source='36124946-3a39-4636-8c77-c66dc36bd58f-attachment.json' type='application/json' size='283'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1578925479727' status='passed' stop='1578925479799'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='28cbdf46-3a98-45ee-927c-b90886faabd2-attachment.json' type='application/json' size='313'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1578925479799' status='passed' stop='1578925479853'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='5a28f829-38ea-4b06-85f5-b78a44e3283e-attachment.json' type='application/json' size='1283'/>
+                        <attachment title='Response' source='d0d7c2b6-de99-478b-bcf4-06b5c8962328-attachment.json' type='application/json' size='464'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1578925479854' status='passed' stop='1578925480324'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0af323c3-e860-4099-8628-842cdb99c00e-attachment.png' type='image/png' size='35045'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The element with selector "//*[@id="root"]/header/div/div/div[2]/div/button/span[1]/img" you trying to pass into the execute method wasn't found</message>
+                <stack-trace>Error: The element with selector "//*[@id="root"]/header/div/div/div[2]/div/button/span[1]/img" you trying to pass into the execute method wasn't found
+                    at Array.map (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Object.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/elementPosition.ts:55:10)
+                    at step (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:33:23)
+                    at Object.next (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:14:53)
+                    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:8:71
+                    at Object.getElementPositionDesktop (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:63:12)
+                    at Object.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/rectangles.ts:35:29)
+                    at Browser.saveElement (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/monad.js:116:27)
+                    at Context.&lt;anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/MakeScreen.spec.js:11:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

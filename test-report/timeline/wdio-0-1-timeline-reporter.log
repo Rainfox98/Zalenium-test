@@ -1,0 +1,100 @@
+{
+  "start": "2020-01-13T14:24:32.942Z",
+  "end": "2020-01-13T14:24:40.661Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "79.0.3945.117",
+    "chrome": {
+      "chromedriverVersion": "79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})",
+      "userDataDir": "/tmp/.com.google.Chrome.Ncw4Yb"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:42165"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webdriver.remote.sessionid": "0ac0023d2eedc1ed6ebd6736349d4a68"
+  },
+  "host": "localhost",
+  "port": 4444,
+  "baseUrl": "https://dev.mentalstack.com:3030/login",
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 60000,
+    "ui": "bdd",
+    "compilers": [
+      "js:@babel/register"
+    ]
+  },
+  "duration": 7719,
+  "suites": [
+    {
+      "title": "Example",
+      "duration": 6163,
+      "start": "2020-01-13T14:24:34.189Z",
+      "end": "2020-01-13T14:24:40.352Z",
+      "tests": [
+        {
+          "title": "Should make screen of full page",
+          "start": "2020-01-13T14:24:34.190Z",
+          "end": "2020-01-13T14:24:39.107Z",
+          "duration": 4917,
+          "state": "passed",
+          "screenshots": [
+            "/Users/mentalstack/Documents/GitHub/unit-e2e/test-report/timeline/file-1578925477976.jpeg"
+          ]
+        },
+        {
+          "title": "Should make screen of language label",
+          "start": "2020-01-13T14:24:39.108Z",
+          "end": "2020-01-13T14:24:40.341Z",
+          "duration": 1233,
+          "state": "failed",
+          "screenshots": [
+            "/Users/mentalstack/Documents/GitHub/unit-e2e/test-report/timeline/file-1578925480324.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element with selector \"//*[@id=\"root\"]/header/div/div/div[2]/div/button/span[1]/img\" you trying to pass into the execute method wasn't found",
+            "stack": "Error: The element with selector \"//*[@id=\"root\"]/header/div/div/div[2]/div/button/span[1]/img\" you trying to pass into the execute method wasn't found\n    at Array.map (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at Object.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/elementPosition.ts:55:10)\n    at step (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:33:23)\n    at Object.next (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:14:53)\n    at /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:8:71\n    at Object.getElementPositionDesktop (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/build/methods/elementPosition.js:63:12)\n    at Object.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/webdriver-image-comparison/lib/methods/rectangles.ts:35:29)\n    at Browser.saveElement (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/monad.js:116:27)\n    at Context.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/MakeScreen.spec.js:11:17)"
+          }
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2020-01-13T14:24:34.190Z",
+          "end": "2020-01-13T14:24:35.318Z",
+          "duration": 1128,
+          "title": "\"before each\" hook",
+          "associatedSuite": "Example"
+        },
+        {
+          "start": "2020-01-13T14:24:39.108Z",
+          "end": "2020-01-13T14:24:39.531Z",
+          "duration": 423,
+          "title": "\"before each\" hook",
+          "associatedSuite": "Example"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "/Users/mentalstack/Documents/GitHub/unit-e2e/test/visualRegression/MakeScreen.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 1,
+    "skipped": 0
+  }
+}

@@ -1,0 +1,15 @@
+15:23:02.833 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+  },
+  "zal:build": "WebDriverIO",
+  "zal:name": "Demo Integration Tests",
+  "zal:recordVideo": true
+}
+15:23:02.845 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 24413
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+15:23:04.035 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+15:23:04.037 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 96af5deb51e5395a2db761f03f941d5e (org.openqa.selenium.chrome.ChromeDriverService)
+15:23:05.088 INFO [ActiveSessions$1.onStop] - Removing session 96af5deb51e5395a2db761f03f941d5e (org.openqa.selenium.chrome.ChromeDriverService)

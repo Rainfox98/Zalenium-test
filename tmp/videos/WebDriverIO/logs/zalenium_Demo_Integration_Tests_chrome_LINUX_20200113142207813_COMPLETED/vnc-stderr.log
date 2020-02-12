@@ -1,0 +1,1 @@
+/usr/bin/wait-xmanager.sh: line 31:   171 Terminated              xsetroot -cursor_name left_ptr -fg white -bg black > /dev/null 2>&1

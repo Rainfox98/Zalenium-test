@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"root\"]/main/div/div[2]/table/tbody/tr[contains(text(), \"Josuke Higashikata\")]/td[5]/button[1]"
+}

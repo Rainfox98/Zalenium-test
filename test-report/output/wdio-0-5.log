@@ -1,0 +1,54 @@
+2020-01-13T14:23:12.899Z INFO @wdio/local-runner: Run worker command: run
+2020-01-13T14:23:13.428Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "image-comparison"
+2020-01-13T14:23:13.520Z DEBUG @wdio/utils:initialiseServices: initialise custom service "TimelineService"
+2020-01-13T14:23:13.520Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "selenium-standalone"
+2020-01-13T14:23:13.649Z DEBUG @wdio/local-runner:utils: init remote session
+2020-01-13T14:23:13.651Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-01-13T14:23:13.653Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session
+2020-01-13T14:23:13.654Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      browserName: 'chrome',
+      'goog:chromeOptions': {},
+      'zal:recordVideo': true,
+      'zal:name': 'Demo Integration Tests',
+      'zal:build': 'WebDriverIO'
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    browserName: 'chrome',
+    'goog:chromeOptions': {},
+    'zal:recordVideo': true,
+    'zal:name': 'Demo Integration Tests',
+    'zal:build': 'WebDriverIO'
+  }
+}
+2020-01-13T14:23:15.021Z INFO webdriver: COMMAND setWindowRect(null, null, 1920, 1080)
+2020-01-13T14:23:15.022Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session/b6def6599cf88491435a9dd972a55906/window/rect
+2020-01-13T14:23:15.022Z INFO webdriver: DATA { x: null, y: null, width: 1920, height: 1080 }
+2020-01-13T14:23:15.177Z INFO webdriver: RESULT { height: 1079, width: 1919, x: 10, y: 10 }
+2020-01-13T14:23:15.782Z ERROR @wdio/runner: Error: Cannot find module './Roles.validator'
+Require stack:
+- /Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/validators/index.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/specs/UserPageTest.spec.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/mocha/lib/mocha.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/mocha/index.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/mocha-framework/build/index.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/utils.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/initialisePlugin.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/utils/build/index.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/runner/build/index.js
+- /Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/@wdio/local-runner/build/run.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/mentalstack/Documents/GitHub/unit-e2e/test/e2e/validators/index.js:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Module._compile (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Object.newLoader [as .js] (/Users/mentalstack/Documents/GitHub/unit-e2e/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+2020-01-13T14:23:15.789Z INFO webdriver: COMMAND deleteSession()
+2020-01-13T14:23:15.790Z INFO webdriver: [DELETE] http://localhost:4444/wd/hub/session/b6def6599cf88491435a9dd972a55906

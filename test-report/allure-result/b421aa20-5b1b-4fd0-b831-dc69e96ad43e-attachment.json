@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"root\"]/main/div/div[2]/table/tbody/tr[4]/td[contains(text(), \"Stand User\")]"
+}
